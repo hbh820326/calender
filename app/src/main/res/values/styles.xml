@@ -1,0 +1,25 @@
+<resources>
+    <!-- 系统样式 -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- 日历子View样式 -->
+    <style name="item">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">46dp</item>
+        <item name="android:background">@drawable/green_bg</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!-- 日历星期？样式 -->
+    <style name="head">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textColor">@android:color/primary_text_light</item>
+        <item name="android:gravity">center</item>
+        <item name="layout_constraintTop_toBottomOf">@+id/month</item>
+    </style>
+</resources>
